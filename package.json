@@ -1,0 +1,10 @@
+{
+  "name": "fedimod-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Website for FediMod",
+  "license": "MIT",
+  "scripts": {
+    "start": "python3 -m http.server 3000 -b 127.0.0.1"
+  }
+}

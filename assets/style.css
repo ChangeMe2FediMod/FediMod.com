@@ -1,0 +1,67 @@
+@import url(https://fonts.bunny.net/css?family=roboto:500,700);
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: rgb(199,21,133);
+  background: linear-gradient(180deg, rgba(199,21,133,1) 0%, rgba(128,0,128,1) 100%); 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: 'Roboto', sans-serif;
+  /* improves legibility of the white text on the pink/purple background */
+  text-shadow: 1px 1px 1px rgba(112, 0, 112, 0.8);
+}
+
+main {
+  margin-top: -10rem;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}
+
+main h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+main ul {
+  margin: 2rem 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+}
+
+main ul li {
+  margin: 0 0.5rem;
+}
+
+main ul li a {
+  display: block;
+  font-size: 1.5rem;
+  padding: 0.8rem 1.4rem;
+  background: white;
+  color: rgb(199,21,133);
+  text-decoration: none;
+  text-shadow: none;
+  box-shadow: 1px 1px 1px rgba(112, 0, 112, 0.8);
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+main ul li a:hover, 
+main ul li a:focus {
+  color: rgba(128,0,128,1);
+  transform: translateY(-1px);
+}
