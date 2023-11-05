@@ -20,18 +20,20 @@ body {
 }
 
 main {
-  margin-top: -10rem;
+  margin-top: -6%;
   text-align: center;
 }
 
 main h1 {
   font-size: 4rem;
+  line-height: 1.4em;
   font-weight: 700;
   margin: 0 0 0.5rem;
 }
 
 main h2 {
   font-size: 2.5rem;
+  line-height: 1.4em;
   font-weight: 500;
   margin: 0;
 }
@@ -50,7 +52,8 @@ main ul li {
 main ul li a {
   display: block;
   font-size: 1.5rem;
-  padding: 0.8rem 1.4rem;
+  line-height: 1.8em;
+  padding: 0.5rem 1rem;
   background: white;
   color: rgb(199,21,133);
   text-decoration: none;
@@ -64,4 +67,22 @@ main ul li a:hover,
 main ul li a:focus {
   color: rgba(128,0,128,1);
   transform: translateY(-1px);
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    margin-top: 0;
+  }
+
+  main h2 {
+    font-size: 1.6rem;
+  }
+
+  main ul {
+    display: block;
+  }
+
+  main ul li {
+    margin-top: 1.6rem;
+  }
 }
